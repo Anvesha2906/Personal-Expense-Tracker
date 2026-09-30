@@ -1,6 +1,6 @@
 # Personal Expense Tracker
 
-A simple, menu-driven command-line app written in Python to track your income and expenses in ₹. Data is saved automatically to a local JSON file, so nothing is lost between runs.
+A menu-driven Personal Expense Tracker built using Python. It helps users record and manage their income and expenses, calculate their balance, and review spending through category-wise and monthly reports. The application stores data locally in a JSON file so records can be loaded again when the program is restarted.
 
 ## Features
 
@@ -54,7 +54,17 @@ On first run, a `tracker.txt` file is created automatically in the same folder t
      PERSONAL EXPENSE TRACKER
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Add Expense
-...
+2. View Expenses
+3. Total Expenses
+4. Delete Expense
+5. Edit Expense
+6. Add Income
+7. Total Income
+8. Edit Income
+9. Show Balance
+10. Category-wise Analysis
+11. Monthly Expense Report
+12. Exit
 Enter your choice (1-12): 1
 Enter expense amount: ₹250
 Enter category: Food
@@ -88,7 +98,8 @@ All data lives in `tracker.txt` (JSON format) next to the script:
 .
 ├── expense_tracker.py   # Main program
 ├── tracker.txt          # Auto-generated data file
-└── README.md
+├── README.md
+└── STATEMENT.md
 ```
 
 ## Known Limitations
