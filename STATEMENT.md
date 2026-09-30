@@ -64,6 +64,14 @@ A menu-driven console application with 12 options. The program runs in a loop un
 - Input validation
 - Date and time formatting and parsing
 - Sorting with a key function
+  
+## Targeted Audiences
+
+The primary targeted audience for this project includes:
+- College students who want to keep track of their daily spending and available balance.
+- Young individuals who are beginning to manage their personal finances.
+- Users with simple financial-recording needs who prefer a lightweight application instead of a complex financial-management system.
+- Python beginners and students who want to understand how programming concepts can be applied to a real-world problem.
 
 ## Expected Outcome
 
